@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "admin-lte": "^2.3.6",
+    "axios": "^1.0.0",
+    "bootstrap": "^5.2.2",
+    "final-form": "^4.20.7",
+    "font-awesome": "^4.7.0",
+    "ionicons": "^3.0.0",
+    "jquery": "^3.6.1",
+    "jquery-ui": "^1.13.2",
+    "jsdom": "^20.0.1",
+    "lodash": "^4.17.21",
+    "react-final-form": "^6.5.9",
+    "react-redux": "^8.0.4",
+    "react-redux-toastr": "^7.6.10",
+    "react-router": "^6.4.2",
+    "redux": "^4.2.0",
+    "redux-multi": "^0.1.12",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.4.1",
+    "vite": "^3.1.0"
+  }
+}
