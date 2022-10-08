@@ -3,15 +3,15 @@ import React from 'react';
 import Header from '../common/template/header';
 import Sidebar from '../common/template/sidebar';
 import Footer from '../common/template/footer';
+import Routes from './routes';
 
-
-function App() {
+function App(props) {
   return (
     <div className='wrapper'>
         <Header />
         <Sidebar />
         <div className="content-wrapper">
-          <h1>Conteúdo</h1>
+          {props.children}
         </div>
         <Footer />
     </div>
